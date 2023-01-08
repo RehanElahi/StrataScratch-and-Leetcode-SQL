@@ -25,7 +25,7 @@ from worker
 where salary IN
 (Select MAX(salary)
 from worker 
-))
+));
 
 -- Using CTE and Join
 With t as (SELECT a.salary, b.worker_title
