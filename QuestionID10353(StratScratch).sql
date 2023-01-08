@@ -1,6 +1,6 @@
 -- Find the titles of workers that earn the highest salary. Output the highest-paid title or multiple titles that share the highest salary.
 
---worker:
+-- worker:
 -- worker_id: int
 -- first_name: varchar
 -- last_name: varchar
@@ -8,7 +8,7 @@
 -- joining_date: datetime
 -- department: varchar
 
---title:
+-- title:
 -- worker_ref_id: int
 -- worker_title: varchar
 -- affected_from: datetime
