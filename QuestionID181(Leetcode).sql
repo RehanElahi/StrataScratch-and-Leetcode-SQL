@@ -14,6 +14,7 @@
 
 -- Write an SQL query to find the employees who earn more than their managers.
 
+
 -- Return the result table in any order.
 
 -- Solution using subquery
