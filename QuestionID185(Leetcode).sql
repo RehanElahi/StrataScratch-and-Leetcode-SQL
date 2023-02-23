@@ -30,7 +30,7 @@
 -- Write an SQL query to find the employees who are high earners in each of the departments.
 -- Return the result table in any order.
 
-
+-- Code:
 with cte1 as (Select b.name as 'Department', a.name as 'Employee', a.salary as 'Salary', Dense_Rank() Over (Partition by b.name Order by a.salary desc) as 'SalaryRnk'
 from Employee a
 Inner Join Department b
